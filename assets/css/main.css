@@ -5,7 +5,8 @@ fuentes: font-family: 'Asap', sans-serif; (párrafos)
 */
 
 header {
-	
+	display: flex;
+	height: 25vh;
 }
 
 div.logo {
