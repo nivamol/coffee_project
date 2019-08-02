@@ -9,8 +9,9 @@ header {
 	height: 25vh;
 }
 
-div.logo {
-
+div.logo img {
+	height: 100px;
+	widows: 100px;
 }
 
 div.menu {
