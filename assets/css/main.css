@@ -23,7 +23,8 @@ div.logo img {
 }
 
 div.menu {
-
+	font-family: var(--fuenteSecundaria);
+	padding: 1.5em 2em;
 }
 
 nav {
@@ -31,5 +32,7 @@ nav {
 }
 
 nav a {
-
+	text-decoration: none;
+	color: var(--colorPrimario);
+	padding: 0 1.2em;
 }
