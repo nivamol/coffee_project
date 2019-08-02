@@ -4,6 +4,13 @@ fuentes: font-family: 'Asap', sans-serif; (párrafos)
         font-family: 'Kaushan Script', cursive; (Titulos)
 */
 
+:root {
+	--colorPrimario: #623c2b;
+	--colorSecundario: #ffbd59;
+	--fuentePrincipal: 'Kaushan Script', cursive;
+	--fuenteSecundaria: 'Asap', sans-serif;
+}
+
 header {
 	display: flex;
 	height: 25vh;
