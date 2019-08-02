@@ -7,6 +7,7 @@ fuentes: font-family: 'Asap', sans-serif; (párrafos)
 header {
 	display: flex;
 	height: 25vh;
+	justify-content: space-between;
 }
 
 div.logo img {
