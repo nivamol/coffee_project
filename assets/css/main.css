@@ -25,6 +25,7 @@ div.logo img {
 div.menu {
 	font-family: var(--fuenteSecundaria);
 	padding: 1.5em 2em;
+	padding-bottom: 0;
 }
 
 nav {
