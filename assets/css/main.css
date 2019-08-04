@@ -25,10 +25,10 @@ div.logo img {
 div.menu {
 	font-family: var(--fuenteSecundaria);
 	padding: 1.5em 2em;
+	padding-bottom: 0;
 }
 
 nav {
-
 }
 
 nav a {
@@ -48,6 +48,7 @@ nav a:hover {
 div.hero {
 	height: 75vh;
 	background-image: url(../images/background.png);
+	background-size: cover;
 }
 
 div.hero h1 {
