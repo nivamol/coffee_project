@@ -42,3 +42,18 @@ nav a:hover {
 	border-bottom: 2px solid var(--colorPrimario);
 	transition-duration: .3s;
 }
+
+/*hero*/
+
+div.hero {
+	height: 75vh;
+	background-image: url(../images/background.png);
+}
+
+div.hero h1 {
+	margin: 0;
+}
+
+div.hero p {
+	margin: 0;
+}
