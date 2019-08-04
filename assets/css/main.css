@@ -13,7 +13,7 @@ fuentes: font-family: 'Asap', sans-serif; (párrafos)
 
 header {
 	display: flex;
-	height: 25vh;
+	height: 14vh;
 	justify-content: space-between;
 }
 
