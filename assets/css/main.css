@@ -49,6 +49,10 @@ div.hero {
 	height: 86vh;
 	background-image: url(../images/background.png);
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 div.hero h1 {
