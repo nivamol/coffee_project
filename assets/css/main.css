@@ -57,8 +57,13 @@ div.hero {
 
 div.hero h1 {
 	margin: 0;
+	font-family: var(--fuentePrincipal);
+	font-size: 3.5em;
+	margin-bottom: .3em;
 }
 
 div.hero p {
 	margin: 0;
+	font-family: var(--fuenteSecundaria);
+	font-size: 1.1em;
 }
