@@ -95,9 +95,9 @@ div.social {
 }
 
 div.social a {
-	
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: 0 .4em;
+	color: black;
 }
 
-div.social a span {
-
-}
