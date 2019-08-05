@@ -73,3 +73,19 @@ div.hero p {
 div.hero p span {
 	color: var(--colorSecundario);
 }
+
+div.hero button {
+	margin-top: 1em;
+	padding: 1em 2em;
+	border-radius: 50%;
+	border: 1px solid var(--colorPrimario);
+	background-color: var(--colorSecundario);
+	font-family: var(--fuentePrincipal);
+	font-size: 1.2em;
+}
+
+div.hero button:hover {
+	background-color: var(--colorPrimario);
+	color: white;
+	transition: .5s ease-in-out;
+}
