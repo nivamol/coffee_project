@@ -48,7 +48,8 @@ nav a:hover {
 div.hero {
 	height: 86vh;
 	background-image: url(../images/background.png);
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: contain;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
