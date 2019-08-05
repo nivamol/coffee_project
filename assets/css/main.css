@@ -13,7 +13,7 @@ fuentes: font-family: 'Asap', sans-serif; (párrafos)
 
 header {
 	display: flex;
-	height: 25vh;
+	height: 14vh;
 	justify-content: space-between;
 }
 
@@ -29,7 +29,6 @@ div.menu {
 }
 
 nav {
-
 }
 
 nav a {
@@ -47,14 +46,46 @@ nav a:hover {
 /*hero*/
 
 div.hero {
-	height: 75vh;
+	height: 86vh;
 	background-image: url(../images/background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 div.hero h1 {
 	margin: 0;
+	font-family: var(--fuentePrincipal);
+	font-size: 3.5em;
+	margin-bottom: .3em;
+	color: var(--colorPrimario);
 }
 
 div.hero p {
 	margin: 0;
+	font-family: var(--fuenteSecundaria);
+	font-size: 1.1em;
+}
+
+div.hero p span {
+	color: var(--colorSecundario);
+}
+
+div.hero button {
+	margin-top: 1em;
+	padding: 1em 2em;
+	border-radius: 50%;
+	border: 1px solid var(--colorPrimario);
+	background-color: var(--colorSecundario);
+	font-family: var(--fuentePrincipal);
+	font-size: 1.2em;
+}
+
+div.hero button:hover {
+	background-color: var(--colorPrimario);
+	color: white;
+	transition: .5s ease-in-out;
 }
