@@ -108,15 +108,15 @@ section#products {
 
 
 #products div.products {
-
+	display: grid;
+	grid-template: repeat(2, 1fr) / repeat(3, 1fr);
 }
 
 div.products .producto {
-
 }
 
 div.products img {
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 }
 
