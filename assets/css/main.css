@@ -113,6 +113,7 @@ section#products {
 }
 
 div.products .producto {
+	text-align: center;
 }
 
 div.products img {
