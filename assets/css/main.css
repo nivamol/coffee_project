@@ -115,13 +115,13 @@ section#products {
 
 div.products .producto {
 	text-align: center;
-	border: 1px solid black;
 	background-color: #ffffffec;
 }
 
 div.products img {
 	height: 300px;
 	width: 300px;
+	border-radius: 50%;
 }
 
 div.products p {
