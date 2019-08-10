@@ -104,13 +104,14 @@ div.social a {
 
 section#products {
 	height: 100vh;
+	margin-top: 3em;
 }
 
 
 #products div.products {
 	display: grid;
 	grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-	grid-gap: 1em;
+	grid-gap: 3em;
 }
 
 div.products .producto {
